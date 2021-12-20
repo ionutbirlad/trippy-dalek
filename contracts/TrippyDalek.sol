@@ -11,7 +11,7 @@ contract TrippyDalek is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() public ERC721("TrippyDalek", "NFT") {}
+    constructor() public ERC721("TrippyDalek", "TRIPPY") {}
 
     function mintNFT(address recipient, string memory tokenURI)
         public onlyOwner
